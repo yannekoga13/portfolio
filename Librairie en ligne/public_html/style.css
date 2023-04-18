@@ -1,0 +1,229 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 2 mars 2023, 14:30:00
+    Author     : yanne
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+}
+
+#btn_login {
+  display: flex;
+  float: right;
+  margin-top: -37px;
+  
+}
+
+nav a {
+display: block;
+padding: 10px;
+color: #fff;
+text-decoration: none;
+}
+
+nav a:hover {
+background-color: orange;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.search-form button[type="submit"] {
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.search-form button[type="submit"]:hover {
+  background-color: orange;
+}
+.search-filter select {
+  padding: 15px;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-form button[type="submit"], select{
+    margin: 5px;
+}
+
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.book {
+display: inline-block;
+margin: 20px;
+width: 300px;
+}
+
+.book img {
+width: 100%;
+height: auto;
+}
+
+.book h3 {
+margin-top: 10px;
+font-size: 1.2em;
+}
+
+.book p {
+margin: 5px 0;
+font-size: 0.8em;
+color: #666;
+}
+
+.book button {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.book button:hover {
+background-color: orange;
+}
+
+#book-categories {
+margin-top: 40px;
+}
+
+#book-categories h2 {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+#book-categories ul {
+margin: 0;
+padding: 0;
+list-style:none;
+}
+
+#book-categories li {
+margin-bottom: 5px;
+}
+
+#book-categories a {
+display: inline-block;
+padding: 5px 10px;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+
+}
+
+#book-categories a:hover {
+background-color: orange;
+}
+
+footer {
+background-color: #ccc;
+padding: 10px;
+text-align: center;
+}
+    
+/*page connexion*/
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 92%;
+}
+
+.login-form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: orange;
+}
+
